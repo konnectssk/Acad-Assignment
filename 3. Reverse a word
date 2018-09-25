@@ -1,0 +1,12 @@
+#Write a Python program to reverse a word after accepting the input from the user.
+#Sample Output:
+#Input word: AcadGild
+#Output: dilGdacA
+
+# Solution
+
+my_word = input("Input a word to reverse: ")
+
+for char in range(len(my_word) - 1, -1, -1):
+  print(my_word[char], end="")
+print("\n")
