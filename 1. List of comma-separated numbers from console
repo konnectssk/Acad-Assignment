@@ -1,0 +1,2 @@
+nums = raw_input("Enter comma separated numbers: ").split(',')
+print nums
